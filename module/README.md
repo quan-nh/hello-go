@@ -6,4 +6,5 @@
 ```sh
 $ go mod init example.com/hello
 $ go install example.com/hello
+$ go test example.com/hello/foo
 ```
