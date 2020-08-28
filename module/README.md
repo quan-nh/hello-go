@@ -1,7 +1,7 @@
 - module: `example.com/hello` define in `go.mod`
 - package:
-  + `main` in root dir
-  + `foo` in foo dir
+  + `main` in root dir (special package)
+  + `foo` in foo dir (multiple files in a dir have the same package)
 
 ```sh
 $ go mod init example.com/hello
